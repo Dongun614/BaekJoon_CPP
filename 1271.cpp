@@ -19,10 +19,28 @@
 //3. total/num의 값과 total%num의 값을 출력한다.
 
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
 int main(){
+    int total, num; //total은 가지고 있는 돈의 양, num는 나눠줘야할 생명체의 수
+
+    cin >> total >> num;
+
+    if(!(total>=1 && num <total && num < pow(10,1000))){
+        return 0;
+    }
+
+    if(num == 0){
+        cout << 0 << endl;
+        cout << total << endl;
+        return 0;
+    }
+
+    cout << total/num << endl;
+    cout << total%num << endl;
+
 
     return 0;
 }
