@@ -11,6 +11,10 @@ int main(){
 
     cin >> num;
 
+    if(num > 100000){
+        return 0;
+    }
+
     for(int i=1; i<=num; i++){
         cout << i << endl;
     }
