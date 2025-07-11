@@ -17,7 +17,6 @@ int main(){
                     array[k] = k+1;
                 } else{
                     if(k == 0) continue;
-
                     array[k] += array[k-1];
                 }
             }
