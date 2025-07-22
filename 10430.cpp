@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-//dk
+
 int main(){
     int A, B, C;
 
