@@ -21,9 +21,18 @@ int main(){
         cin >> numbers[i];
     }
 
-    
+    int find_num;
+    cin >> find_num;
 
+    int count = 0;
 
+    for(int i=0; i<num; i++){
+        if(numbers[i] == find_num){
+            count++;
+        }
+    }
+
+    cout << count << endl;
 
     return 0;
 }
