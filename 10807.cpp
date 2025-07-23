@@ -12,6 +12,18 @@ using namespace std;
 
 
 int main(){
+    int num;
+    cin >> num;
+
+    int* numbers = (int*)malloc(sizeof(int) * num);
+
+    for(int i=0; i<num; i++){
+        cin >> numbers[i];
+    }
+
+    
+
+
 
     return 0;
 }
