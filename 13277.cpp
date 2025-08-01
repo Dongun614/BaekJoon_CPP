@@ -3,7 +3,14 @@
 using namespace std;
 
 int main(){
-    while(1){
-    }
+    long a, b;
+    long result;
+
+    cin >> a >> b;
+
+    result = a * b;
+
+    cout << result << endl;
+
     return 0;
 }
