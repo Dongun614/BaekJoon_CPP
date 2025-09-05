@@ -1,4 +1,5 @@
-//Insert sort 사용하기 
+//Quick sort 사용하기 
+//https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html
 
 #include <iostream>
 
