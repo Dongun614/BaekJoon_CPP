@@ -12,6 +12,6 @@ int main(){
         }
         cout << female + male << endl;
     }
-    
+    //
     return 0;
 }
